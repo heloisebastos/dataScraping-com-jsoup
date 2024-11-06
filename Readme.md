@@ -25,7 +25,9 @@
 O processo de raspagem de dados começa com a identificação da página da web onde se deseja
 extrair os dados. Na etapa de extração de dados utilizamos uma ferramentas de raspagens de dados como a biblioteca Jsoup para navegar pela página extrair os dados desejados e armazená-los de forma estruturada. Mas antes de armazena-los é necessário limpar os dados, etapa na qual se remove qualquer tipo de dados não desejado como tag html, ou células vazias. A última etapa é o armazenamento de dados limpo em um formato estruturado que pode ser facilmente analisados e acessado por outros aplicativos ou ferramentas. 
 
-![descricao](imagens/diagrama-jsoup.png)
+
+![descricao](https://lh3.googleusercontent.com/pw/AP1GczNGwUCoKFN-t_WqPU3pATcHLqAH80Bq2LQmKzuzzwiY22E_ooEdJx-gWuOF2379KSjfzdXEJb4I6Ucp9FKYHdIayh_eJPZPKzzR13UGrsFoibAaDzMgcHlPF2dg7fJX2KmbD7yVOTBYIeoepkyKESycOA=w720-h269-s-no-gm?authuser=0)
+
 
 [Fonte: Raspagem de Dados com Java - Utilizando Jsoup](https://youtu.be/ALTnW09yeAw?si=f1TmBM43YmWRDg-k)
 
@@ -33,6 +35,8 @@ extrair os dados. Na etapa de extração de dados utilizamos uma ferramentas de 
 ## Conclusão
 Jsoup é uma ferramenta excelente para scraping de conteúdo estático. Sua simplicidade e facilidade de uso a tornam uma das melhores opções para manipulação de HTML puro e acesso a dados de páginas da web.
 No entanto, para conteúdo dinâmico ou páginas interativas que requerem execução de JavaScript, ferramentas adicionais como Selenium seriam necessárias.
+
+Link do repositório : https://github.com/heloisebastos/dataScraping-com-jsoup
 
 ## Referências 
 
@@ -58,6 +62,5 @@ No entanto, para conteúdo dinâmico ou páginas interativas que requerem execu�
 
 - [10 Best Java Web Scraping Libraries
 ](https://medium.com/@datajournal/best-java-web-scraping-libraries-5deb6e98a04f#:~:text=Unlike%20libraries%20like%20Jsoup%2C%20Selenium,pages%20that%20require%20user%20interaction.)
-
 
 
